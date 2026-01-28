@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Hurricane&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Benguiat";
+    src: url("./fonts/Benguiat\ Bold.ttf");
+}
+
+
+
+
+body{
+    background-color: #0C0102;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+    position: absolute;
+    z-index: 9;
+}
+
+.hero{
+    background-image: url("./images/primeira_imagem.png");
+    /* A primeira medida é vertical a segunda horizontal */
+    background-position: 50% 0%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 0 7vw 7vw 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .esquerda-hero, .direita-hero{
+        width: 30%;
+    }
+
+    .esquerda-hero{
+        h3{
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 4px;
+        }
+        h1{
+            font-size: 3.7vw;
+            font-family: 'Benguiat', sans-serif;
+        }
+    }
+
+    .direita-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        p{
+            font-size: 2vw;
+            text-align: end;
+            margin-bottom: 32px;
+        }
+        button{
+            background-color: transparent;
+            color: white;
+            font-size: 16px;
+            display: flex;
+            gap: 12px;
+            border: none;
+            outline: none;
+            padding: 16px 0;
+            border-bottom: 1px solid white;
+        }
+
+    }
+}
