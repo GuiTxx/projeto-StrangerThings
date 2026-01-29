@@ -91,7 +91,7 @@ ul {
             position: absolute;
         }
     }
-    
+
     .esquerda-hero,
     .direita-hero{
         width: 30%;
@@ -120,6 +120,16 @@ ul {
             font-size: 2vw;
             text-align: end;
             margin-bottom: 32px;
+        }
+        /* Adicionar hover no button */
+        button:hover{
+            background-color: rgba(150, 150, 150, 0.55);
+            transition: background-color 600ms ease-in-out;
+            border-radius: 5px;
+        }
+
+        button {
+            transition: background-color 600ms ease-in-out;
         }
 
     }
