@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <!-- CABEÇALHO -->
     <header>
@@ -33,57 +35,60 @@
             </div>
         </section>
         <!-- SECTION 2 -->
-        <section class="cidade">
-            <div class="title-button">
-                <h2>ESCOLHA SUA CIDADE</h2>
-                <button>
-                    ESCOLHA SUA CIDADE!
-                    <img src="./images/setinha.svg" alt="Entrar no link">
-                </button>
-            </div>
+        <div class="bgMostro">
+            <section class="cidade">
+                <div class="title-button">
+                    <h2>ESCOLHA SUA CIDADE</h2>
+                    <button>
+                        ESCOLHA SUA CIDADE!
+                        <img src="./images/setinha.svg" alt="Entrar no link">
+                    </button>
+                </div>
 
-            <div class="cards">
-                <div class="card">
-                    <h3>Sidney</h3>
-                    <p>INGRESSOS DISPONÍVEIS</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Sidney</h3>
+                        <p>INGRESSOS DISPONÍVEIS</p>
+                    </div>
+                    <div class="card" id="mexico">
+                        <h3>Cidade do México</h3>
+                        <p>INGRESSOS DISPONÍVEIS</p>
+                    </div>
+                    <div class="card">
+                        <h3>Yas Island</h3>
+                        <p>INGRESSOS DISPONÍVEIS</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Cidade do México</h3>
-                    <p>INGRESSOS DISPONÍVEIS</p>
+            </section>
+            <!-- SECTION 3 -->
+            <section class="depoimentos-section">
+                <div class="logotipos">
+                    <img src="./images/netflix.svg" alt="Logotipo Netflix">
+                    <img src="./images/clio_logo.svg" alt="Logotipo Clio">
+                    <img src="./images/fever.svg" alt="Logotipo Fever">
                 </div>
-                <div class="card">
-                    <h3>Yas Island</h3>
-                    <p>INGRESSOS DISPONÍVEIS</p>
+                <div class="depoimentos">
+                    <div class="depoimentos-user">
+                        <img src="./images/nbc_img.svg" alt="Logotipo NBC">
+                        <p>
+                            “A experiência de viver o universo de Stranger Things é única e emocionante.”
+                        </p>
+                    </div>
+                    <div class="depoimentos-user">
+                        <img src="./images/fox.svg" alt="Logotipo NBC">
+                        <p>
+                            “A experiência de viver o universo de Stranger Things é única e emocionante.”
+                        </p>
+                    </div>
+                    <div class="depoimentos-user">
+                        <img src="./images/sanfrancisco.svg" alt="Logotipo NBC">
+                        <p>
+                            “A experiência de viver o universo de Stranger Things é única e emocionante.”
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- SECTION 3 -->
-        <section class="depoimentos">
-            <div class="logotipos">
-                <img src="./images/netflix.svg" alt="Logotipo Netflix">
-                <img src="./images/clio_logo.svg" alt="Logotipo Clio">
-                <img src="./images/fever.svg" alt="Logotipo Fever">
-            </div>
-
-            <div class="depoimentos-user">
-                <img src="./images/nbc_img.svg" alt="Logotipo NBC">
-                <p>
-                    “A experiência de viver o universo de Stranger Things é única e emocionante.”
-                </p>
-            </div>
-            <div class="depoimentos-user">
-                <img src="./images/fox.svg" alt="Logotipo NBC">
-                <p>
-                    “A experiência de viver o universo de Stranger Things é única e emocionante.”
-                </p>
-            </div>
-            <div class="depoimentos-user">
-                <img src="./images/sanfrancisco.svg" alt="Logotipo NBC">
-                <p>
-                    “A experiência de viver o universo de Stranger Things é única e emocionante.”
-                </p>
-            </div>
-        </section>
+            </section>
+        </div>
         <!-- SECTION 4 -->
         <section class="thanks-section">
             <h2>OBRIGADO POR SE JUNTAR A NÓS</h2>
@@ -103,55 +108,49 @@
         </section>
 
     </main>
-    
+
     <!-- RODAPÉ -->
     <footer>
-        <div class="conteudo-footer">
-            <div class="logo-Footer">
-                <h3>THE EXPERIENCE</h3>
-                <h2>STRANGER THINGS</h2>
-            </div>
-            <div class="section-Footer">
-                <div class="social">
-                    <h3>REDES SOCIAIS</h3>
-                    <ul>
-                        <li>
-                            <img src="./images/insta.svg" alt="Facebook">
-                        </li>
-                        <li>
-                            <img src="./images/face.svg" alt="Instagram">
-                        </li>
-                        <li>
-                            <img src="./images/twitter.svg" alt="Twitter">
-                        </li>
-                    </ul>
-                </div>
-                <div class="parceiro">
-                    <h3>PARCEIRO DE MÍDIA</h3>
-                    <img src="./images/secret_media_logo.svg" alt="Secret Media Logo">
-                </div>
-                <div class="institucional">
-                    <nav>
-                        <h3>INSTITUCIONAL</h3>
-                        <ul>
-                            <li>Contato</li>
-                            <li>Imprensa</li>
-                            <li>Parcerias</li>
-                            <li>Influenciadores</li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="logotipos-Footer">
-                <img src="./images/netflix.svg" alt="Logotipo Netflix">
-                <img src="./images/fever.svg" alt="Logotipo Fever">
-            </div>
-            <div class="texto-infinito">
-                <h3>THE EXPERIENCE</h3>
-                <h3>THE EXPERIENCE</h3>
-                <h3>THE EXPERIENCE</h3>
-            </div>
+      <div class="conteudoFooter">
+        <div class="logoFooter">
+          <h3>THE EXPERIENCE</h3>
+          <h2>STRANGER THINGS</h2>
         </div>
+        <div class="secoesFooter">
+          <div class="social">
+            <h3>REDES SOCIAIS</h3>
+            <ul>
+              <li><img src="./images/face.svg" alt="" /></li>
+              <li><img src="./images/insta.svg" alt="" /></li>
+              <li><img src="./images/twitter.svg" alt="" /></li>
+            </ul>
+          </div>
+          <div class="parceiro">
+            <h3>PARCEIRO DE MÍDIA</h3>
+            <img src="./images/secret_media_logo.svg" alt="" />
+          </div>
+          <div class="institucional">
+            <nav>
+              <ul>
+                <li>Contato</li>
+                <li>Imprensa</li>
+                <li>Parcerias</li>
+                <li>Influenciadores</li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="logotiposFooter">
+        <img src="./images/netflix.svg" alt="" />
+        <img src="./images/fever.svg" alt="" />
+      </div>
+      <div class="textoInfinito">
+        <h3>THE EXPERIENCE</h3>
+        <h3>THE EXPERIENCE</h3>
+        <h3>THE EXPERIENCE</h3>
+      </div>
     </footer>
 </body>
+
 </html>
