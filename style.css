@@ -314,7 +314,7 @@ footer {
         justify-content: end;
     }
 }
-
+/* MEDIA QUERIES PARA CELULARES */
 @media (max-width:600px){
     section{
         padding: 4vw;
@@ -392,11 +392,13 @@ footer {
             width: max-content;
             gap: 32px;
             li{
-                animation: textoInfinito 8s infinite linear;
+                animation: textoInfinito 12s infinite linear;
+            }
+            li:before{
+                content: "Sidney • Rio de Janeiro • São Paulo • Los Angeles • Nova York • San Francisco • Londres • Atlanta • Paris • Toronto • Seattle";
             }
         }
     }
-    
     footer{
         padding-top: 40px;
         .conteudoFooter{
