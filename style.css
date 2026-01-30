@@ -57,10 +57,39 @@ button {
     border-bottom: 1px solid white;
 }
 
+#preLoader{
+    width: 100%;
+    height: 100vh;
+    background-color: #0C0102;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg{
+        width: 20vw;
+        height: auto;
+
+        path{
+            fill:rgba(168, 19, 19,  0.3);
+            stroke: rgb(168, 19, 19);
+            stroke-dasharray: 640;
+            stroke-dashoffset: 640;
+        }
+    }
+}
+
 .bgMostro {
+    background-color: #0C0102;
     background-image: url("./images/imagem_devorador_mentes.png");
     background-size: cover;
     background-position: center;
+    z-index: 2;
+    position: relative;
+    
 }
 
 ul {
@@ -148,6 +177,7 @@ ul {
 
 .cidade {
     flex-direction: column;
+    position: relative;
 
     .title-button {
         display: flex;
@@ -206,6 +236,9 @@ ul {
 .thanks-section {
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 2;
+    background-color: #0C0102;
 
     h2 {
         margin-bottom: 40px;
